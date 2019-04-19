@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 100px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    height: 1.8rem;
+    width: 100%;
+}
+
+.header1 {
+    margin-top: .2rem;
+    display: flex;
+    flex-direction: column;
+    font-size: .2rem;
+    color: #1e710c;
+    text-align: center;
+    background-image: url(image/allright.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.ribao {
+    color: #1e710c;
+}
+
+main {
+    margin-top: 1.8rem;
+    font-size: .17rem;
+    background-color: #eff0f4;
+}
+
+/*csstask*/
+.csstask {
+    margin: 0 .5rem 0 .5rem;
+    background-color: #f6e68c;color:#e68595;
+}
+
+.csstask1,
+.csstask2,
+.csstask3,
+.csstask4,
+.csstask5,
+.csstask6,
+.csstask7,
+.csstask8 {
+    border-bottom: 0.01rem solid #5fc0cd;
+    color: #474041;
+    margin: .01rem .5rem .01rem .5rem;
+}
+.summary1{
+    color: red;
+}

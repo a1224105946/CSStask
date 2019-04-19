@@ -1,0 +1,432 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 100px;
+    word-break: break-all;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* header */
+header {
+    width: 100%;
+}
+
+.header1 {
+    width: 100%;
+    height: .4rem;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    background-color: #fff;
+}
+
+.service {
+    color: #29b078;
+    display: inline-block;
+    font-size: .14rem;
+    margin-top: .1rem;
+}
+
+.micrologo {
+    float: right;
+    right: 0;
+    margin-top: .05rem;
+}
+
+.micrologo1,
+.micrologo2,
+.micrologo3 {
+    display: inline-block;
+}
+
+/* 导航栏 */
+.navbar {
+    background-color: #29b078;
+    border: none;
+    padding-left: 2vw;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.navbar-header {
+    margin-top: .2rem;
+}
+
+.navbar-collapse {
+    border: none;
+    box-shadow: none;
+}
+
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+}
+
+@media only screen and (min-width:768px) {
+    .navbar {
+        padding-left: 15vw;
+        padding-right: 15vw;
+    }
+
+    .navbar-collapse {
+        float: right;
+        margin-top: .2rem;
+        padding: 0;
+        background-color: #29b078;
+    }
+
+    .guide:hover .guide1 {
+        visibility: visible;
+    }
+}
+
+.navbar-collapse a {
+    color: #fff;
+}
+
+.guide {
+    position: relative;
+    display: inline-block;
+    font-size: .17rem;
+    color: #ffffff;
+    text-align: center;
+    padding: 0 0 .1rem 0;
+}
+
+.guide1 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: .03rem;
+    background-color: #ffffff;
+    visibility: hidden;
+}
+
+
+/* main */
+main {
+    padding-left: 15vw;
+    padding-right: 15vw;
+    background-color: #fafafa;
+    padding-top: .1rem;
+}
+
+/* subnav */
+.subnav1-left {
+    color: black;
+}
+
+.subnav1-right {
+    color: #52ba8b;
+}
+
+.subnav2 {
+    margin-top: .1rem;
+}
+
+.classify {
+    display: inline-block;
+    color: #999999;
+}
+
+.all,
+.classify1,
+.classify2,
+.classify3,
+.classify4,
+.classify5 {
+    margin: 0 .2rem 0 .2rem;
+    color: black;
+}
+
+.all:hover,
+.classify1:hover,
+.classify2:hover,
+.classify3:hover,
+.classify4:hover,
+.classify5:hover {
+    color: #ffffff;
+    background-color: #29b078;
+}
+
+
+
+/* 主要内容 */
+.square {
+    position: relative;
+    display: inline-block;
+    width: 30%;
+    margin: .3rem 1.5% .3rem 1.5%;
+    border: .01rem solid #eeeded;
+}
+
+.span1 {
+    color: #bfbfbf;
+}
+
+.span2 {
+    color: red;
+}
+
+.span3 {
+    position: absolute;
+    right: 0.05rem;
+}
+
+.square:hover .ios {
+    visibility: visible;
+}
+
+.square1 {
+    width: 100%;
+    display: flex;
+    border-bottom: .01rem solid #eeeded;
+}
+
+.img1 {
+    height: 35%;
+    width: 35%;
+    margin: 2.5%;
+}
+
+.img2 {
+    margin: 0 0 0 .05rem;
+    margin-top:-0.04rem;
+}
+
+.web {
+    display: inline-block;
+    width: 60%;
+}
+
+.web1 {
+    height: 20%;
+    padding-top: 3.5%;
+}
+
+.square2 {
+    font-size: 0;
+}
+
+.square21,
+.square22,
+.square23,
+.square24 {
+    display: inline-block;
+    width: 50%;
+    font-size: .12rem;
+    border-bottom: 0.01rem solid #eeeded;
+    height: .4rem;
+    line-height: .4rem;
+}
+
+.square21,
+.square23 {
+    border-right: 0.01rem solid #eeeded;
+}
+
+.square3 {
+    font-size: 0;
+    display: flex;
+}
+
+.square31 {
+    height: 1.05rem;
+    display: inline-block;
+    font-size: .12rem;
+    width: 50%;
+    line-height: 1.05rem;
+    text-align: center;
+    border-bottom: 0.01rem solid #eeeded;
+    border-right: 0.01rem solid #eeeded;
+}
+
+.square32 {
+    height: 1.05rem;
+    font-size: .12rem;
+    width: 50%;
+
+}
+
+.square321,
+.square322,
+.square323 {
+    height: .35rem;
+    line-height: .35rem;
+    position: relative;
+    border-bottom: 0.01rem solid #eeeded;
+}
+
+.square4 {
+    height: .4rem;
+    line-height: .4rem;
+    font-size: .15rem;
+    border-bottom: 0.01rem solid #eeeded;
+}
+
+.square5 {
+    padding-top: .05rem;
+    height: .4rem;
+    font-size: .11rem;
+    border-bottom: 0.01rem solid #eeeded;
+}
+
+.ios {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    /* opacity: .5;
+background-color: black; */
+    padding: 10% 5% 10% 5%;
+    color: #fff;
+}
+
+.ios1 {
+    font-size: .2rem;
+    text-align: center;
+}
+
+.ios2 {
+    padding: 10% 5% 10% 5%;
+}
+
+@media only screen and (max-width:1400px) and (min-width:868px) {
+    .square {
+        display: inline-block;
+        width: 45%;
+        margin: .3rem 1.5% .3rem 1.5%;
+    }
+
+    .square5 {
+        padding-top: .1rem;
+    }
+}
+
+@media only screen and (max-width:868px) {
+    .square {
+        display: inline-block;
+        width: 90%;
+        margin: .3rem 5% .3rem 5%;
+    }
+}
+
+.square21,
+.square22,
+.square23,
+.square24,
+.square4 {
+    padding-left: .05rem;
+}
+
+.square321,
+.square322,
+.square323,
+.square5 {
+    padding-left: 0.05rem;
+    padding-right: 0.05rem;
+}
+
+/* footer */
+/* footer2 */
+.footer2 {
+    color: #ffffff;
+    height: 1.7rem;
+    background-color: #29b078;
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+.footer2-1 {
+    display: inline-block;
+    height: 1.7rem;
+}
+
+.footer2-11 {
+    font-size: .15rem;
+    margin: .4rem 0 .2rem 0;
+}
+
+.footer2-12 {
+    font-size: .13rem;
+    padding-top: .4rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.footer2-2 {
+    display: inline-block;
+    height: 1.7rem;
+}
+
+.footer2-21 {
+    font-size: .15rem;
+    margin: .4rem 0 .2rem 0;
+}
+
+.footer2-22,
+.footer2-23,
+.footer2-24,
+.footer2-25 {
+    display: inline-block;
+    font-size: .13rem;
+    margin: .1rem .2rem .1rem 0;
+}
+
+.footer2-3 {
+    margin-top: .2rem;
+}
+
+.footer2-31 {
+    white-space: nowrap;
+    margin-bottom: .1rem;
+}
+
+.task08footer01 {
+
+    width: .92rem;
+    height: .92rem;
+}
+
+@media only screen and (max-width:768px) {
+    .footer2 {
+        height: 5.1rem;
+    }
+}
+
+/* footer3 */
+.footer3 {
+    padding-left: 15vw;
+    padding-right: 15vw;
+    height: .3rem;
+    line-height: .3rem;
+    text-align: center;
+    color: #ffffff;
+    font-size: .12rem !important;
+    border-top: .01rem solid #32c086;
+    background-color: #29b078;
+}

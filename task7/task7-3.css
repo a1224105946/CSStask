@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 100px;
+}
+
+/*header*/
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: .44rem;
+    font-size: .16rem;
+    background-color: #29bde0;
+    line-height: .55rem;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding-left: .1rem;
+    padding-right: .1rem;
+    box-sizing: border-box;
+    border-bottom: .02rem solid #74d4eb;
+}
+
+.task070301 {
+    width: .255rem;
+    height: .21rem;
+    margin-top: .17rem;
+}
+
+.task070302 {
+    width: .2rem;
+    height: .2rem;
+    margin-top: .17rem;
+}
+
+/*main */
+main {
+    margin-top: .44rem;
+}
+
+/*main1*/
+.main1 {
+    background-color: #29bde0;
+    padding-bottom: .12rem;
+    border-bottom: 0.005rem solid #31a8c4;
+}
+
+.main1-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.task070303 {
+    margin-top: .11rem;
+    width: 1.755rem;
+    height: 1.025rem;
+}
+
+.main1-2 {
+    font-size: .15rem;
+    color: #ffc865;
+    padding: 0 10vw 0 10vw;
+}
+
+.main1-3 {
+    margin-top: .3rem;
+    font-size: .12rem;
+    color: #ffffff;
+    padding: 0 10vw 0 10vw;
+}
+
+.main1-4 {
+    font-size: .12rem;
+    color: #ffffff;
+    padding: 0 10vw 0 10vw;
+}
+
+.span1 {
+    display: inline-block;
+    width: 32%;
+}
+
+.main1-5 {
+    margin-top: .05rem;
+
+    font-size: .12rem;
+    color: #ffffff;
+    padding: 0 10vw 0 10vw;
+}
+
+.main2 {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.main2-1 {
+    display: inline-block;
+    height: .82rem;
+    font-size: .15rem;
+    padding: 0 10vw 0 10vw;
+    border-top: .005rem solid #dddddd;
+    border-bottom: .005rem solid #dddddd;
+}
+
+.span2 {
+    display: inline-block;
+    font-size: .15rem;
+    margin-top: .03rem;
+}
+
+.span3 {
+    display: inline-block;
+    float: right;
+    margin-top: .05rem;
+    font-size: .1rem;
+    color: #d5d5d5;
+}
+
+p {
+    margin-top: .05rem;
+    font-size: .125rem;
+    color: #a6a6a6;
+    line-height: .2rem;
+
+}
+
+/*footer部分*/
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer {
+    height: .65rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(41, 189, 224, 0.5);
+    /*发明rgba一定是个天才*/
+}
+
+button {
+    font-size: .17rem;
+    height: .45rem;
+    width: 40vw;
+    border-radius: .1rem;
+    outline: none;
+    border: none;
+}
+
+.again {
+    background-color: #f66f6f;
+}
+
+.share {
+    background-color: #fbb435;
+}
