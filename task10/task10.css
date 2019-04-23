@@ -332,6 +332,7 @@ button {
     height: .26rem;
     background-color: #1d7ad9;
     border-radius: .02rem .02rem .02rem .02rem;
+    margin-right: .05rem;
 }
 
 .prompt {
