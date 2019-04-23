@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+html {
+    font-size: 100px;
+}
+
+$width:100%;
+
+body {
+    width: $width;
+    background-color: #eff0f4;
+}
+
+// header
+header {
+    width: 100%;
+    height: .45rem;
+    box-sizing: border-box;
+    background-color: #5fc0cd;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2vw 0 2vw;
+}
+
+@mixin fontsize1 {
+    font-size: .14rem;
+}
+
+@mixin fontsize2 {
+    font-size: .18rem;
+}
+
+.headerleft {
+    @include fontsize1;
+}
+
+.headermid {
+    @include fontsize2;
+}
+
+.headerright {
+    @include fontsize1;
+}
+
+// main 
+// 
+@mixin div1 {
+    width: $width;
+    height: .5rem;
+    margin-top: .1rem;
+    display: flex;
+    align-items: center;
+}
+
+.username {
+    @include div1;
+    background: url(image/iphone.png) no-repeat #fff .24rem .15rem /.135rem .2rem;
+}
+
+.password {
+    @include div1;
+    background: url(image/locked.png) no-repeat #fff .24rem .15rem /.145rem .215rem;
+}
+
+@mixin input1 {
+    outline: none;
+    border: none;
+}
+
+input {
+    @include input1;
+    height: .25rem;
+    width: $width;
+    text-indent: 16px;
+    margin-left: .6rem;
+    vertical-align: middle;
+    border-left: 1px solid #eaedee;
+}
+
+// 
+// 
+footer {
+    font-size: 0;
+}
+
+button {
+    height: .5rem;
+    width: 100%;
+    margin-top: .1rem;
+    @include fontsize2;
+    @include input1;
+    background-color: #5fc0cd;
+    color: #ffffff;
+}
+
+a {
+    float: right;
+    margin-right: .05rem;
+    @include fontsize1;
+    color: #5fc0cd;
+}
