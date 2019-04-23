@@ -119,19 +119,18 @@ button {
     height: .4rem;
     background-color: #ffffff;
     margin: .3rem 1rem 0 18vw;
-    box-shadow: none;
+    border-radius: .1rem;
+   border: .01rem solid #888;
     display: none;
     outline: none;
     float: right;
-    top: .5rem;
 }
 
 .icon-bar {
     display: block;
-    width: .28rem;
+    width: .2rem;
     height: .02rem;
-    margin: .05rem 0 .05rem .04rem;
-    border-radius: .02rem;
+    margin: .058rem 0 .034rem .085rem;
     background-color: #888;
 }
 
@@ -460,6 +459,7 @@ input[type="mumber"] {
 
 .choosesizetext2 {
     display: flex;
+    flex-direction: column;
     margin-left: .3rem;
     width: calc(100% - 1.8rem);
 }
@@ -514,10 +514,7 @@ input[type="mumber"] {
     .choosebox2 {
         width: calc((100% - 1.8rem) * 0.8);
     }
-.choosesizetext2{
-    height: 1.8rem;
-    flex-direction: column;
-}
+
     .choosesizetext3,
     .choosesizetext4 {
         width: 88%;
@@ -564,7 +561,9 @@ input[type="mumber"] {
     .choosesizetext1 {
         align-items: baseline;
     }
-
+    .choosesizetext2{
+        flex-direction: row;
+    }
     .choosesizetext3,
     .choosesizetext4 {
         width: 49%;
