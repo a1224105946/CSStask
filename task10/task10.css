@@ -61,25 +61,8 @@ header {
     width: .7rem;
     background-color: #fff;
     color: #000;
+    cursor: pointer;
 }
-
-/* @media only screen and (max-width:600px) {
-    header {
-        display: block;
-    }
-
-    .phonenumber {
-        width: 100%;
-        text-align:center;
-    }
-
-    .login,
-    .signin {
-        border-top: .01rem solid #fff;
-        display: inline-block;
-        width: 49%;
-    }
-} */
 
 /* main */
 main {
@@ -108,6 +91,7 @@ main {
     margin: .29rem .1rem .29rem .1rem;
     background-color: #fff;
     border-radius: .05rem;
+    cursor: pointer;
 }
 
 .li:hover {
@@ -184,6 +168,7 @@ button {
     right: 0;
     display: flex;
     margin-top: .5rem;
+    cursor: pointer;
 }
 
 .orderprocessprimebox {
