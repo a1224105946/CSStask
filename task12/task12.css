@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100px;
+}
+
+.header1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 0.45rem;
+  background-color: #5fc0cd;
+  color: #ffffff;
+  position: fixed;
+  top: 0;
+}
+
+.headerback {
+  position: absolute;
+  left: .1rem;
+  width: .085rem;
+  height: .085rem;
+  border-bottom: 2px solid #ffffff;
+  border-left: 2px solid #ffffff;
+  transform: rotate(45deg);
+}
+
+.headertext {
+  font-size: 0.16rem;
+}
+
+.hedaer2 {
+  position: fixed;
+  top: 0;
+  height: .85rem;
+  font-size: 0.16rem;
+}
+
+.header2_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 0.45rem;
+  background-color: #5fc0cd;
+  color: #ffffff;
+}
+
+.employerfinding {
+  display: inline-block;
+  padding: 5px;
+  border: none;
+  outline: none;
+  background-color: #55a8b3;
+  color: #ffffff;
+  border-radius: 5px 0 0 5px;
+}
+
+.nursefinding {
+  display: inline-block;
+  padding: 5px;
+  border: none;
+  outline: none;
+  background-color: #55a8b3;
+  color: #ffffff;
+  border-radius: 0 5px 5px 0;
+}
+
+.employerfinding:hover,
+.nursefinding:hover {
+  color: #55a8b3;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.top-right {
+  position: absolute;
+  right: .15rem;
+  width: .21rem;
+  height: .22rem;
+  background: url(image/dingwei1.png) no-repeat 0 0/cover;
+}
+
+.header2_select {
+  display: flex;
+  height: .4rem;
+  border-bottom: 1px solid #e2eaec;
+}
+
+.header2_select > select {
+  width: 33.33333%;
+  border: none;
+  color: #a9a9a9;
+  outline: none;
+  text-align-last: center;
+}
+
+.select_location,
+.select_eating {
+  border-right: 1px solid #e2eaec;
+}
+
+.main1-background {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: .45rem;
+  height: 1.64rem;
+  background: url(image/dabeijing.png) no-repeat 0 0/cover;
+}
+
+.main1-background-head {
+  width: .845rem;
+  height: .845rem;
+  margin-left: .2rem;
+  background: url(image/touxiang.png) no-repeat 0 0/0.845rem 0.845rem;
+}
+
+.main1-background-text {
+  height: .5rem;
+  width: 2rem;
+  margin-left: .2rem;
+  color: #ffffff;
+}
+
+.main1-background-text1 {
+  display: flex;
+}
+
+.name {
+  font-size: 0.17rem;
+}
+
+.old {
+  margin-left: .1rem;
+  font-size: 0.14rem;
+  line-height: .23rem;
+}
+
+.address {
+  padding-left: .15rem;
+  margin-top: .1rem;
+  font-size: 0.12rem;
+  background: url(image/dingwei.png) no-repeat 0.015rem 0.025rem/0.09rem 0.115rem;
+}
+
+.main1-content {
+  font-size: 0.15rem;
+  list-style-type: none;
+}
+
+.no1 {
+  border-left: 2px solid #5fc0cd;
+  margin: .2rem 0 .15rem .17rem;
+  line-height: 90%;
+  font-size: 0.16rem;
+}
+
+.no21, .no22 {
+  padding: 0 .05rem 0 .2rem;
+  line-height: 90%;
+  border-right: 1px solid #e1e5e7;
+  background: url(image/xingxing.png) no-repeat 0.03rem 0.025rem/0.15rem 0.145rem;
+}
+
+.no22 {
+  border: none;
+}
+
+.no2,
+.no3,
+.no4,
+.no5 {
+  margin-left: 17px;
+  padding: 17px 0px 17px 0px;
+  border-bottom: 1px solid #e1e5e7;
+}
+
+.no6 {
+  display: flex;
+  align-items: center;
+  padding: 17px;
+  border-bottom: 1px solid #e1e5e7;
+}
+
+.no31,
+.no41,
+.no51,
+.no61 {
+  border-right: 1px solid #e1e5e7;
+  color: #999999;
+  padding-right: 12px;
+  line-height: 90%;
+  margin-left: 15px;
+}
+
+.no61 {
+  white-space: nowrap;
+}
+
+.no32,
+.no42,
+.no52 {
+  margin-left: 12px;
+}
+
+.no52 {
+  color: red;
+}
+
+.no62 {
+  margin-left: 17px;
+}
