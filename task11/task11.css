@@ -25,18 +25,18 @@ header {
 }
 
 .headerleft {
-  font-size: .14rem;
+  font-size: 0.14rem;
 }
 
 .headermid {
-  font-size: .18rem;
+  font-size: 0.18rem;
 }
 
 .headerright {
-  font-size: .14rem;
+  font-size: 0.14rem;
 }
 
-.username {
+.username, .password {
   width: 100%;
   height: .5rem;
   margin-top: .1rem;
@@ -46,23 +46,18 @@ header {
 }
 
 .password {
-  width: 100%;
-  height: .5rem;
-  margin-top: .1rem;
-  display: flex;
-  align-items: center;
   background: url(image/locked.png) no-repeat #fff 0.24rem 0.15rem/0.145rem 0.215rem;
 }
 
 input {
-  outline: none;
-  border: none;
   height: .25rem;
   width: 100%;
   text-indent: 16px;
   margin-left: .6rem;
   vertical-align: middle;
   border-left: 1px solid #eaedee;
+  outline: none;
+  border: none;
 }
 
 input::-webkit-input-placeholder {
@@ -77,17 +72,18 @@ button {
   height: .5rem;
   width: 100%;
   margin-top: .1rem;
-  font-size: .18rem;
-  outline: none;
-  border: none;
+  font-size: 0.18rem;
   background-color: #5fc0cd;
   color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  border: none;
 }
 
 a {
   float: right;
   margin: .05rem .05rem 0 0;
-  font-size: .14rem;
+  font-size: 0.14rem;
   color: #5fc0cd;
   text-decoration: none;
 }

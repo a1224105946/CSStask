@@ -28,7 +28,7 @@ header {
 }
 
 @mixin fontsize($size:.14rem) {
-    font-size:$size;
+    font-size: $size;
 }
 
 .headerleft {
@@ -45,40 +45,32 @@ header {
 
 // main 
 // 
-@mixin div1 {
+.username {
     width: $width;
     height: .5rem;
     margin-top: .1rem;
     display: flex;
     align-items: center;
-}
-
-.username {
-    @include div1;
     background: url(image/iphone.png) no-repeat #fff .24rem .15rem /.135rem .2rem;
 }
 
 .password {
-    @include div1;
+    @extend .username;
     background: url(image/locked.png) no-repeat #fff .24rem .15rem /.145rem .215rem;
 }
 
-@mixin input1 {
-    outline: none;
-    border: none;
-}
-
 input {
-    @include input1;
     height: .25rem;
     width: $width;
     text-indent: 16px;
     margin-left: .6rem;
     vertical-align: middle;
     border-left: 1px solid #eaedee;
+    outline: none;
+    border: none;
 }
 
-input::-webkit-input-placeholder{
+input::-webkit-input-placeholder {
     color: #e1e5e7;
 }
 
@@ -92,16 +84,18 @@ button {
     height: .5rem;
     width: 100%;
     margin-top: .1rem;
-    @include fontsize2;
-    @include input1;
+    @include fontsize(.18rem);
     background-color: #5fc0cd;
     color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    border: none;
 }
 
 a {
     float: right;
     margin: .05rem .05rem 0 0;
-    @include fontsize1;
+    @include fontsize;
     color: #5fc0cd;
     text-decoration: none;
 }
