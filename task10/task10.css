@@ -51,13 +51,14 @@ header {
 }
 
 .signin {
-    width: 1rem;
+    width: .5rem;
     border-left: .02rem solid #fff;
     border-right: .02rem solid #fff;
 }
 
 .login:hover,
 .signin:hover {
+    width: .7rem;
     background-color: #fff;
     color: #000;
 }
@@ -120,7 +121,7 @@ button {
     background-color: #ffffff;
     margin: .3rem 1rem 0 18vw;
     border-radius: .1rem;
-   border: .01rem solid #888;
+    border: .01rem solid #888;
     display: none;
     outline: none;
     float: right;
@@ -325,6 +326,7 @@ button {
 .prompt {
     display: flex;
     margin: 0 18vw .0 18vw;
+    margin-bottom: .15rem;
 }
 
 .verticalborder {
@@ -556,22 +558,24 @@ input[type="mumber"] {
     .choosesizetext1,
     .choosesizetext2 {
         height: 3.6rem;
-        text-align: center;
     }
 
     .choosesizetext1 {
-        align-items: baseline;
+        align-items: baseline;  
     }
-    .choosesizetext2{
+
+    .choosesizetext2 {
         flex-direction: row;
     }
+
     .choosesizetext3,
     .choosesizetext4 {
+        text-align: center;
         width: 49%;
         height: 3.6rem;
         flex-wrap: wrap;
     }
-   
+
     .label2 {
         width: 100%;
     }
