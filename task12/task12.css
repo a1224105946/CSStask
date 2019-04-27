@@ -215,3 +215,93 @@ html {
 .no62 {
   margin-left: 17px;
 }
+
+.main2_content {
+  display: flex;
+  justify-content: center;
+  height: .9rem;
+  border-bottom: 1px solid #e1e5e7;
+}
+
+.main2_contentleft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: calc(100% - 1.4rem);
+  margin-left: .15rem;
+}
+
+.main2_contentleft_date, .main2_contentleft_location {
+  padding-left: .2rem;
+  font-size: 0.13rem;
+  background: url(image/date.png) no-repeat 0 0/0.13rem 0.13rem;
+}
+
+.main2_contentleft_time {
+  font-size: 0.15rem;
+}
+
+.main2_contentleft_location {
+  background: url(image/dingwei2.png) no-repeat 0 0/0.1rem 0.12rem;
+}
+
+.footer1 {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 0.6rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 0.16rem;
+}
+
+.message {
+  height: 42px;
+  width: 43%;
+  border-radius: 4px;
+  outline: none;
+  border: 2px solid #5fc0cd;
+  background-color: #ffffff;
+  color: #5fc0cd;
+}
+
+.telephone {
+  height: 42px;
+  width: 43%;
+  border-radius: 4px;
+  outline: none;
+  border: 2px solid #5fc0cd;
+  background-color: #5fc0cd;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.footer2 {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 0.1rem;
+  background-color: #f8fafb;
+}
+
+.home, .head {
+  width: .23rem;
+  padding-top: .26rem;
+  background: url(image/home.png) no-repeat 0 0/0.23rem 0.2rem;
+  text-align: center;
+}
+
+.write {
+  width: .47rem;
+  height: .47rem;
+  background: url(image/write.png) no-repeat 0 0/0.47rem 0.47rem;
+}
+
+.head {
+  background: url(image/head.png) no-repeat 0 0/0.21rem 0.205rem;
+}

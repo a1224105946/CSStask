@@ -53,7 +53,7 @@ $wdith:100%;
     @include font1;
 }
 
-@mixin button {
+@mixin button1 {
     display: inline-block;
     padding: 5px;
     border: none;
@@ -67,12 +67,12 @@ $wdith:100%;
 }
 
 .employerfinding {
-    @include button;
+    @include button1;
     border-radius: 5px 0 0 5px;
 }
 
 .nursefinding {
-    @include button;
+    @include button1;
     border-radius: 0 5px 5px 0;
 }
 
@@ -194,6 +194,7 @@ $wdith:100%;
     padding: 17px;
     border-bottom: 1px solid #e1e5e7;
 }
+
 .no31,
 .no41,
 .no51,
@@ -215,9 +216,105 @@ $wdith:100%;
 .no52 {
     margin-left: 12px;
 }
+
 .no52 {
     color: red;
 }
+
 .no62 {
     margin-left: 17px;
+}
+
+// 第二个页面main
+.main2_content {
+    display: flex;
+    justify-content: center;
+    height: .9rem;
+    border-bottom: 1px solid #e1e5e7;
+}
+
+.main2_contentleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: calc(100% - 1.4rem);
+    margin-left: .15rem;
+}
+
+.main2_contentleft_date {
+    padding-left: .2rem;
+    @include font1(.13rem);
+    background: url(image/date.png) no-repeat 0 0/.13rem .13rem;
+}
+.main2_contentleft_time{
+    @include font1(.15rem);
+}
+.main2_contentleft_location{
+    @extend .main2_contentleft_date;
+    background: url(image/dingwei2.png) no-repeat 0 0/.1rem .12rem;
+}
+.main2_contentright{
+
+}
+// footer
+// 第一个页面
+@mixin footer($height:.6rem) {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: $height;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer1 {
+    @include footer;
+    @include font1;
+}
+
+@mixin button2 {
+    height: 42px;
+    width: 43%;
+    border-radius: 4px;
+    outline: none;
+    border: 2px solid #5fc0cd;
+}
+
+.message {
+    @include button2;
+    background-color: #ffffff;
+    color: #5fc0cd;
+}
+
+.telephone {
+    @include button2;
+    background-color: #5fc0cd;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+// 第二个页面
+.footer2 {
+    @include footer(.5rem);
+    @include font1(.1rem);
+    background-color: #f8fafb;
+}
+
+.home {
+    width: .23rem;
+    padding-top: .26rem;
+    background: url(image/home.png) no-repeat 0 0/.23rem .2rem;
+    text-align: center;
+}
+
+.write {
+    width: .47rem;
+    height: .47rem;
+    background: url(image/write.png) no-repeat 0 0/.47rem .47rem;
+}
+
+.head {
+    @extend .home;
+    background: url(image/head.png) no-repeat 0 0/.21rem .205rem;
 }
