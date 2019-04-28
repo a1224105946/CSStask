@@ -1,0 +1,84 @@
+// html1
+@mixin flex($positionx:center, $positiony:center) {
+    display: flex;
+    justify-content: $positionx;
+    align-items: $positiony;
+}
+
+// html1 body
+
+
+// html1 body_menu
+.body1_menu {
+    max-width: 0;
+    display: none;
+}
+
+// html1 body_main
+.body1_main {
+    width: 100%;
+    overflow: hidden;
+}
+
+.header1 {
+    background: url(image/task070101.png) no-repeat .1rem .2rem/.17rem .135rem;
+}
+
+.body1_main1 {
+    position: relative;
+    @include flex;
+    height: .45rem;
+    width: 90%;
+    margin: .62rem 5% .17rem 5%;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.body1_main1-text {
+    color: #c9c9c9;
+}
+
+.body1_main1-front {
+    position: absolute;
+    right: .1rem;
+}
+
+.body1_main2 {
+    width: 90%;
+    background-color: #ffffff;
+}
+
+.body1_main2_game {
+    @include flex;
+    width: 100%;
+    padding: .15rem 0;
+    border-bottom: 1px solid #FBB435;
+
+    a {
+        color: #FBB435;
+    }
+}
+
+.body1_main2_version {
+    @include flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.body1_main2_version1 {
+    width: 80%;
+    @include flex;
+    height: .7rem;
+    margin: .15rem 0;
+    background-color: #69D1E9;
+    a {
+        color: #fff;
+    }
+}
+
+.body1_main2_triangle {
+    position: absolute;
+    right: .3rem;
+    height: .14rem;
+    width: .14rem;
+}
