@@ -41,8 +41,9 @@ body {
 }
 /* 黄色三角形 */
 .triangle {
-    border-top: .07rem solid transparent;
-    border-bottom: .07rem solid transparent;
-    border-left: .07rem solid #fbb435;
+    border-left: .14rem solid #fbb435;
+    border-top:.28rem solid transparent;
+    border-bottom: .28rem solid transparent;
+   
 }
 
