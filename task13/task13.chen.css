@@ -40,10 +40,13 @@ body {
     height: 12px;
 }
 /* 黄色三角形 */
-.triangle {
+.triangley {
     border-left: .14rem solid #fbb435;
     border-top:.28rem solid transparent;
-    border-bottom: .28rem solid transparent;
-   
+    border-bottom: .28rem solid transparent;  
 }
-
+.triangleb{
+    border-top: .08rem solid #b9e9f5;
+    border-right: .04rem solid transparent;
+    border-left: .04rem solid transparent;
+}
