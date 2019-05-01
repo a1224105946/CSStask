@@ -215,7 +215,7 @@
   top: .08rem;
   width: .26rem;
   height: .26rem;
-  background: url(image/task070204.png) no-repeat 0 0/0.26rem 0.26rem;
+  background: url(image/task070204.png) no-repeat 0 0/cover;
 }
 
 .body2_header_click {
@@ -342,4 +342,125 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: #fff;
+  border-bottom: .02rem solid #74d4eb;
+}
+
+.body3_header :nth-child(1) {
+  width: .255rem;
+  height: .21rem;
+  background: url(image/task070301.png) no-repeat 0 0/cover;
+}
+
+.body3_header :nth-child(3) {
+  width: .2rem;
+  height: .2rem;
+  background: url(image/task070302.png) no-repeat 0 0/cover;
+}
+
+.body3_main {
+  width: 100vw;
+  margin: .44rem 0 .65rem 0;
+}
+
+.body3_main-top {
+  background-color: #29bde0;
+  padding-bottom: .12rem;
+  border-bottom: 0.005rem solid #31a8c4;
+}
+
+.div1 {
+  height: 1.4rem;
+  background: url(image/task070303.png) no-repeat 50% 50%/1.755rem 1.025rem;
+}
+
+.div2 {
+  color: #ffc865;
+  font-weight: 600;
+}
+
+.div3 {
+  margin: .3rem 0 .1rem 0;
+  font-size: .12rem;
+  color: #ffffff;
+}
+
+.div4 {
+  font-size: .12rem;
+  color: #ffffff;
+}
+
+.div5 {
+  margin-top: .05rem;
+  font-size: .12rem;
+  color: #ffffff;
+}
+
+.div5 span {
+  display: inline-block;
+  width: 32%;
+}
+
+.body3_main-bottom {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+.body3_main-bottom div {
+  height: .82rem;
+  border-top: .005rem solid #dddddd;
+  border-bottom: .005rem solid #dddddd;
+}
+
+.body3_main-bottom div :nth-child(1) {
+  display: inline-block;
+  margin-top: .1rem;
+}
+
+.body3_main-bottom div :nth-child(2) {
+  float: right;
+  margin-top: .05rem;
+  font-size: .1rem;
+  color: #d5d5d5;
+}
+
+.body3_main-bottom div :nth-child(3) {
+  margin-top: .05rem;
+  font-size: .125rem;
+  color: #a6a6a6;
+  line-height: .2rem;
+}
+
+.body3_footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: .65rem;
+  width: 100vw;
+  background-color: rgba(41, 189, 224, 0.5);
+}
+
+.body3_footer button {
+  font-size: .17rem;
+  height: .45rem;
+  width: 40vw;
+  border-radius: .1rem;
+  outline: none;
+  border: none;
+}
+
+.body3_footer button a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.again {
+  background-color: #f66f6f;
+}
+
+.share {
+  background-color: #fbb435;
 }

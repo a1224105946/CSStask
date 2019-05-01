@@ -19,6 +19,7 @@ body {
 .pd5{
     padding: 0 5% 0 5%;
 }
+.pd10{ padding: 0 10vw 0 10vw;}
 /* border */
 .bd1 {
     border: 1px solid #c9c9c9;
