@@ -1,5 +1,7 @@
 @import url(header.css);
 @import url(footer.css);
+@import url(carousel.css);
+@import url(./square.css);
 * {
   margin: 0;
 }
@@ -12,6 +14,9 @@ footer {
 
 .main1 {
   background-color: #fafafa;
+}
+
+.main1-carousel {
 }
 
 .main1-icon {
@@ -136,6 +141,9 @@ footer {
   .process {
     width: 50%;
   }
+  .img1 {
+    visibility: visible;
+  }
 }
 
 @media only screen and (max-width: 800px) {
@@ -147,6 +155,9 @@ footer {
   }
   .process .text {
     width: 85%;
+  }
+  .img1 {
+    visibility: visible;
   }
 }
 
@@ -300,7 +311,7 @@ footer {
 }
 
 .main1-link .link-list li {
-  width: 10%;
+  white-space: nowrap;
   text-align: center;
   padding-bottom: 1px;
   border-bottom: 1px solid #ffffff;
@@ -322,27 +333,36 @@ footer {
   .link-list {
     margin: .2rem 0 !important;
   }
+  .link-list li {
+    width: 8% !important;
+    margin: 0 1% !important;
+  }
 }
 
 @media only screen and (min-width: 900px) and (max-width: 1300px) {
   li {
-    width: 20% !important;
+    width: 14% !important;
+    margin: 0 3% !important;
   }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 900px) {
   li {
-    width: 50% !important;
+    width: 20% !important;
+    margin: 0 15% !important;
   }
 }
 
 @media only screen and (max-width: 600px) {
   li {
-    width: 100% !important;
+    width: 30% !important;
+    margin: 0 35% !important;
   }
 }
 
 .main2 {
+  padding-bottom: .5rem;
+  background-color: #fafafa;
   font-size: .15rem;
 }
 
@@ -361,7 +381,7 @@ footer {
 }
 
 .main2-subnav {
-  margin-top: .1rem;
+  margin-top: .5rem;
 }
 
 .main2-subnav :nth-child(1) {
@@ -422,41 +442,132 @@ footer {
   color: #52ba8b;
 }
 
-@media only screen and (max-width: 1300px) {
-  .content-partner {
-    min-width: 100%;
-  }
+.content-partner-list .partner:hover .circle-left {
+  background-color: #ff9052;
 }
 
-.content-text {
+.content-partner-list .partner:hover .partnername a {
+  color: #ff9052;
+}
+
+.content-main {
   min-width: 70%;
   margin: .3rem 3% 0 3%;
   border: .02rem solid #ededed;
   background-color: #fff;
+  font-size: .14rem;
+  line-height: .17rem;
 }
 
-.content-text-intro {
+.content-main-intro {
   display: flex;
   height: 1.5rem;
   border-bottom: .02rem solid #ededed;
   padding: 0 10%;
 }
 
-.content-text-intro .logo {
+.content-main-intro .logo {
   width: 30%;
-  text-align: center;
-  line-height: 1.5rem;
+  line-height: 1.8rem;
 }
 
-.content-text-intro .intro {
+.content-main-intro .intro {
   width: 70%;
   display: flex;
   align-items: center;
 }
 
-@media only screen and (max-width: 1300px) {
-  .content-text {
+.content-main-text {
+  padding: 5% 10% 10% 10%;
+}
+
+.content-main-text p {
+  margin-bottom: 5%;
+  text-indent: 2em;
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 800px) {
+  .main2-content {
+    flex-direction: column;
+  }
+  .content-partner {
+    min-width: 100%;
+  }
+  .content-main {
     width: 100%;
     margin: 5% 0 0 0;
   }
+}
+
+@media only screen and (max-width: 800px) {
+  .main2-content {
+    flex-direction: column;
+  }
+  .content-main {
+    width: 100%;
+    margin: 5% 0 0 0;
+  }
+  .content-main-intro {
+    height: auto;
+    flex-direction: column;
+  }
+  .content-main-intro .logo {
+    width: 100%;
+    height: 1.2rem;
+    text-align: center;
+  }
+  .content-main-intro .intro {
+    width: 100%;
+    padding-bottom: 10%;
+  }
+}
+
+.main3 {
+  font-size: .14rem;
+}
+
+.main3-subnav {
+  margin-top: .1rem;
+}
+
+.main3-subnav .kinds {
+  display: inline-block;
+  color: #999999;
+}
+
+.main3-subnav .kind {
+  margin: 0 .1rem;
+  color: black;
+  display: inline-block;
+}
+
+.main3-subnav .kind:hover {
+  color: #ffffff;
+  background-color: #29b078;
+}
+
+@media only screen and (max-width: 905px) {
+  .main3-subnav {
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    flex-wrap: wrap;
+  }
+}
+
+.main3-content .title {
+  font-size: .16rem;
+  font-weight: 700;
+}
+
+.main3-content .row .square {
+}
+
+hr {
+  margin: .2rem 0;
+  border-top: 2px solid #d0d6d9;
+}
+
+.hr1 {
+  border-top: 2px solid #edf1f2;
 }
