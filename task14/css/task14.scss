@@ -108,6 +108,9 @@ footer {
     .icon1 {
         width: 100%;
     }
+    .icon4{
+        border: none;
+    }
 }
 
 // main1-process
@@ -174,7 +177,7 @@ footer {
         width: 100%;
 
         .text {
-            width: 85%;
+            width: calc(100% - 1rem);
         }
     }
 
@@ -434,6 +437,7 @@ footer {
     margin-top: .3rem;
     border: .02rem solid #ededed;
     background-color: #fff;
+    border-radius: 1vw;
 
     .title {
         height: .6rem;
@@ -453,7 +457,6 @@ footer {
     .partner {
         height: .5rem;
         line-height: .5rem;
-        width: 1.01rem;
 
         .circle-left {
             display: inline-block;
@@ -491,6 +494,7 @@ footer {
     background-color: #fff;
     font-size: .14rem;
     line-height: .17rem;
+    border-radius: 1vw;
 }
 
 .content-main-intro {
@@ -520,7 +524,7 @@ footer {
     }
 }
 
-@media only screen and (max-width:1300px) and(min-width:800px) {
+@media only screen and (max-width:1240px) and(min-width:800px) {
     .main2-content {
         flex-direction: column;
     }

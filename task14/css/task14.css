@@ -93,6 +93,9 @@ footer {
   .icon1, .icon2, .icon3, .icon4 {
     width: 100%;
   }
+  .icon4 {
+    border: none;
+  }
 }
 
 .main1-process {
@@ -154,7 +157,7 @@ footer {
     width: 100%;
   }
   .process .text {
-    width: 85%;
+    width: calc(100% - 1rem);
   }
   .img1 {
     visibility: visible;
@@ -403,6 +406,7 @@ footer {
   margin-top: .3rem;
   border: .02rem solid #ededed;
   background-color: #fff;
+  border-radius: 1vw;
 }
 
 .content-partner .title {
@@ -423,7 +427,6 @@ footer {
 .content-partner-list .partner {
   height: .5rem;
   line-height: .5rem;
-  width: 1.01rem;
 }
 
 .content-partner-list .partner .circle-left {
@@ -457,6 +460,7 @@ footer {
   background-color: #fff;
   font-size: .14rem;
   line-height: .17rem;
+  border-radius: 1vw;
 }
 
 .content-main-intro {
@@ -486,7 +490,7 @@ footer {
   text-indent: 2em;
 }
 
-@media only screen and (max-width: 1300px) and (min-width: 800px) {
+@media only screen and (max-width: 1240px) and (min-width: 800px) {
   .main2-content {
     flex-direction: column;
   }

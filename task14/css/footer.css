@@ -28,7 +28,7 @@ footer a:hover {
 
 .footer-tp-le-tp {
     font-size: .15rem;
-    margin: .4rem 0 .2rem 0;
+    margin: .2rem 0 .2rem 0;
 }
 
 .footer-tp-le-bt {
@@ -45,7 +45,7 @@ footer a:hover {
 
 .footer-tp-mid-tp {
     font-size: .15rem;
-    margin: .4rem 0 .2rem 0;
+    margin: .2rem 0 .2rem 0;
 }
 .footer-tp-mid-bt{
     height: .95rem;
@@ -61,14 +61,13 @@ width: 50%;
 }
 
 .footer-tp-ri {
-    margin-top: .2rem;
     width: calc(100% * (2 / 12));
     padding: 0 15px;
 }
 
 .footer-tp-ri-text {
     white-space: nowrap;
-    margin-bottom: .1rem;
+    margin: .2rem 0 .1rem 0;
     font-size: .17rem;
 }
 

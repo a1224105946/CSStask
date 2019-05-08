@@ -42,11 +42,9 @@ img{
     text-shadow: 0 0 15px #555555;
 }
 .leftjianbian{
-  
     background: -webkit-linear-gradient(right , rgba(250, 242, 239,0) 1% , rgba(158, 148, 166,0.5) 100%);
 }
 .rightjianbian{
-    
     background: -webkit-linear-gradient(left , rgba(250, 242, 239,0) 10% , rgba(158, 148, 166,0.5) 100%);
 }
 .image:hover + .nav label{

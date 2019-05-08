@@ -20,7 +20,8 @@
 }
 
 .square:hover .ios {
-    visibility: visible;
+    opacity: 1;
+    transition: all 1s;
 }
 
 .square1 {
@@ -121,24 +122,24 @@
 }
 
 .ios {
-    visibility: hidden;
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     background: rgba(0, 0, 0, 0.8);
-    /* opacity: .5;
-background-color: black; */
-    padding: 10% 5% 10% 5%;
+    padding: 20% 5% 10% 5%;
     color: #fff;
+    opacity: 0;
 }
 
 .ios1 {
+
     font-size: .2rem;
     text-align: center;
 }
 
 .ios2 {
+    line-height: .25rem;
     padding: 10% 5% 10% 5%;
 }
 
