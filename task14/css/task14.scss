@@ -18,7 +18,7 @@ footer {
 
 // 轮播图
 .main1-carousel {
-    @import url(carousel.css);
+    @import url(../image/photo.css);
 }
 
 .main1-icon {
@@ -216,7 +216,8 @@ footer {
 }
 
 .show-frame:hover {
-    box-shadow: 0px 0px 5px 5px #b0b0b0;
+    box-shadow: 0px 0px 5px 2px #b0b0b0;
+    cursor: pointer;
 }
 
 .show-img {
@@ -227,6 +228,7 @@ footer {
     margin-top: .2rem;
     padding: .1rem;
     font-size: .16rem;
+    line-height: .19rem;
     color: #b0b0b0;
 }
 
@@ -348,6 +350,7 @@ footer {
 
         li:hover {
             border-bottom: 1px solid #29b078;
+            cursor: pointer;
         }
     }
 
