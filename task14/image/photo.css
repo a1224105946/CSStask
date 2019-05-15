@@ -78,7 +78,7 @@
 
 .ssspot {
     position: absolute;
-    bottom: 2vw;
+    bottom: 1vw;
     left: calc((100% - 100px) / 2);
     width: 100px;
     height: 14px;
