@@ -375,21 +375,21 @@ footer {
 }
 
 @media only screen and (min-width:900px) and (max-width:1300px) {
-    li {
+    .link-list li {
         width: 14% !important;
         margin: 0 3% !important;
     }
 }
 
 @media only screen and (min-width:600px) and (max-width:900px) {
-    li {
+    .link-list li {
         width: 20% !important;
         margin: 0 15% !important;
     }
 }
 
 @media only screen and (max-width: 600px) {
-    li {
+    .link-list li{
         width: 30% !important;
         margin: 0 35% !important;
     }
