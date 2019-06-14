@@ -55,7 +55,7 @@ input {
   text-indent: 16px;
   margin-left: .6rem;
   vertical-align: middle;
-  border-left: 1px solid #eaedee;
+  border-left: 1px solid #eaedee!important;
   outline: none;
   border: none;
 }
